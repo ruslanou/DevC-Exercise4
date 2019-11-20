@@ -1,11 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Exercise 4</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Exercise 4</title>
 </head>
 <body>
     <center>
         <h1>Final Project</h1>
     </center>
+
+<div class="navbar">
+  <a class="active" href="index.html"><i class="fa fa-fw fa-home"></i> Home</a> 
+  <a href="contact.html"><i class="fa fa-fw fa-envelope"></i> Contact</a> 
+  <a href="login.html"><i class="fa fa-fw fa-user"></i> Login</a>
+</div>
+    
+<div class="slideshow-container">
+
+  
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="images/depression-1.jpg" style="width:100%">
+    <div class="text">You're not a bad person for the ways you tried to kill your sadness.</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="images/depression-2.jpg" style="width:100%">
+    <div class="text">We hide to try our feelings, but we forget that our eyes speak.</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="images/depression-3.jpg" style="width:100%">
+    <div class="text">But, do not give your past the power to define your future.</div>
+  </div>
+
+  
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+<center><p> Hai strangers, kamu gak sendiri. Coba kamu ceritakan ke orang terdekat atau orang yang paling kamu percaya. Atau kalau kamu berkenan kamu bisa cerita disini</p></center>
+
+
+<center><button id="myBtn">Aku mau cerita</button></center>
+
+
 </body>
 </html>
